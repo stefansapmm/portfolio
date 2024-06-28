@@ -1,27 +1,99 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="de">
 <head>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%230058ff%22></rect><path fill=%22%23fff%22 d=%22M72.15 21.33L72.15 21.33Q74.49 22.50 74.90 25.02Q75.30 27.54 73.59 29.61L73.59 29.61Q72.42 31.23 70.58 31.41Q68.73 31.59 66.84 30.69L66.84 30.69Q64.68 29.70 62.30 29.16Q59.91 28.62 57.30 28.62L57.30 28.62Q52.44 28.62 48.62 30.15Q44.79 31.68 42.09 34.52Q39.39 37.35 38.00 41.22Q36.60 45.09 36.60 49.77L36.60 49.77Q36.60 55.26 38.18 59.31Q39.75 63.36 42.54 66.06Q45.33 68.76 49.11 70.07Q52.89 71.37 57.30 71.37L57.30 71.37Q59.73 71.37 62.16 70.92Q64.59 70.47 66.84 69.30L66.84 69.30Q68.73 68.40 70.58 68.67Q72.42 68.94 73.68 70.56L73.68 70.56Q75.48 72.81 74.99 75.20Q74.49 77.58 72.24 78.66L72.24 78.66Q69.90 79.83 67.43 80.60Q64.95 81.36 62.43 81.77Q59.91 82.17 57.30 82.17L57.30 82.17Q50.82 82.17 45.02 80.10Q39.21 78.03 34.67 73.98Q30.12 69.93 27.51 63.86Q24.90 57.78 24.90 49.77L24.90 49.77Q24.90 42.84 27.29 36.99Q29.67 31.14 34.04 26.87Q38.40 22.59 44.34 20.21Q50.28 17.82 57.30 17.82L57.30 17.82Q61.26 17.82 65.04 18.72Q68.82 19.62 72.15 21.33Z%22></path></svg>" />
-<meta charset="UTF-8">
-<meta http-equiv=“Pragma” content=”no-cache”>
-<meta http-equiv=“Expires” content=”-1″>
-<meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
-<!-- CSS Stylesheets -->
-<link rel="stylesheet" href="css/master.css">
-
-<title>Portfolio Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
-   <h1>Portfolio Project</h1>
-
+    <header>
+        <h1>Mein Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Über mich</a></li>
+                <li><a href="#experience">Berufserfahrung</a></li>
+                <li><a href="#projects">Projekte</a></li>
+                <li><a href="#skills">Qualifikationen</a></li>
+                <li><a href="#references">Referenzen</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>Über mich</h2>
+        <p>Ich bin ein erfahrener Webentwickler mit einem Abschluss in Informatik und praktischer Erfahrung in der Technologiebranche.</p>
+        <p>Ich habe eine Leidenschaft für das Programmieren und das Lösen komplexer Probleme. In meiner Freizeit lerne ich gerne neue Technologien und arbeite an persönlichen Projekten.</p>
+    </section>
+    <section id="experience">
+        <h2>Berufserfahrung</h2>
+        <ul>
+            <li>
+                <h3>Softwareentwickler bei ABC GmbH</h3>
+                <p>Entwicklung und Wartung von Webanwendungen.</p>
+                <p><strong>Zeitraum:</strong> Januar 2023 - Juni 2023</p>
+                <p><strong>Aufgaben:</strong></p>
+                <ul>
+                    <li>Entwicklung neuer Features für interne Tools</li>
+                    <li>Behebung von Bugs und Optimierung der bestehenden Codebasis</li>
+                    <li>Zusammenarbeit mit dem Design- und Produktteam</li>
+                </ul>
+            </li>
+            <li>
+                <h3>Praktikum bei XYZ AG</h3>
+                <p>Unterstützung des Entwicklungsteams bei der Implementierung neuer Funktionen.</p>
+                <p><strong>Zeitraum:</strong> Juli 2022 - Dezember 2022</p>
+                <p><strong>Aufgaben:</strong></p>
+                <ul>
+                    <li>Erstellung von Prototypen für neue Webanwendungen</li>
+                    <li>Testen und Debuggen von Software</li>
+                    <li>Dokumentation der Entwicklungsprozesse</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projekte</h2>
+        <div class="project">
+            <h3>Projekt 1: Portfolio-Website</h3>
+            <p>Eine persönliche Portfolio-Website, die meine Fähigkeiten und Projekte präsentiert.</p>
+            <a href="https://github.com/IhrGitHubBenutzername/portfolio">Mehr erfahren</a>
+        </div>
+        <div class="project">
+            <h3>Projekt 2: Todo-App</h3>
+            <p>Eine einfache Todo-App, die Benutzern hilft, ihre Aufgaben zu verwalten.</p>
+            <a href="https://github.com/IhrGitHubBenutzername/todo-app">Mehr erfahren</a>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Qualifikationen</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Node.js</li>
+            <li>Python, Java</li>
+            <li>Git, GitHub</li>
+            <li>Agile Methodiken</li>
+        </ul>
+    </section>
+    <section id="references">
+        <h2>Referenzen</h2>
+        <p>Referenzen werden auf Anfrage bereitgestellt.</p>
+    </section>
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Senden</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Mein Portfolio</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
-
-<footer>
-    <p class="copyright-text">© Copyright 2023 _______ </p>
-</footer>
-
-<!-- Our codes -->
-<script src="js/main.js"></script>
+</html>
